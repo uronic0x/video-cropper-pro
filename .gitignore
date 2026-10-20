@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Test media & large binaries (never commit)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.mp3
+*.wav
+*.flac
+*.onnx
+*.pt
+*.pth
+*.bin
+*.model
+
+# Temp outputs
+*.part
+*.tmp
+output/
+temp/
+logs/
